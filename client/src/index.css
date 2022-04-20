@@ -1,4 +1,16 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&display=swap');
+
+:root {
+  --lightpink: 248, 217, 232;
+  --darkpink: 100, 2, 39;
+  --lightblue: 156, 181, 186;
+  --darkblue: 31, 44, 46;
+  --lightgreen: 212, 233, 156;
+  --darkgreen: 57, 65, 7;
+}
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }

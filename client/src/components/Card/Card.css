@@ -1,0 +1,56 @@
+.card {
+  margin-bottom: 16px;
+  max-width: 420px;
+}
+
+.card-up {
+  width: 100%;
+  height: 136px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pink {
+  background-color: rgb(var(--lightpink));
+  color: rgb(var(--darkpink));
+}
+
+.blue {
+  background-color: rgb(var(--lightblue));
+  color: rgb(var(--darkblue));
+}
+
+.green {
+  background-color: rgb(var(--lightgreen));
+  color: rgb(var(--darkgreen));
+}
+
+.card-down {
+  width: 100%;
+  height: 128px;
+  background-color: rgb(var(--darkgreen));
+  border-radius: 0px 0px 16px 16px;
+  display: none;
+  z-index: -1;
+}
+
+.flowerinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 29px 0 29px 24px;
+}
+
+.tagswrap {
+  display: flex;
+}
+
+.flowername {
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.flowerimage {
+  height: 100%;
+}

@@ -1,9 +1,10 @@
 import './App.css';
+import Cardswrapper from './components/Cardswrapper/Cardswrapper';
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="app">
+      <Cardswrapper />
     </div>
   );
 }

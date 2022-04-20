@@ -1,0 +1,26 @@
+.tag {
+  font-family: 'Inter';
+  font-weight: 400;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px 4px 4px;
+  margin-right: 4px;
+  margin-top: 12px;
+}
+
+.pinktag {
+  background-color: rgba(var(--darkpink), 0.1);
+  color: rgb(var(--darkpink));
+}
+
+.bluetag {
+  background-color: rgba(var(--darkblue), 0.1);
+  color: rgb(var(--darkblue));
+}
+
+.greentag {
+  background-color: rgba(var(--darkgreen), 0.1);
+  color: rgb(var(--darkgreen));
+}
