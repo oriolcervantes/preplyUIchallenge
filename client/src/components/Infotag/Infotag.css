@@ -1,6 +1,7 @@
 .tag {
   font-family: 'Inter';
-  font-weight: 400;
+  font-weight: 600;
+  font-feature-settings: 'cv06'on, 'cv05'on, 'zero'on, 'ss01'on;
   border-radius: 8px;
   display: flex;
   align-items: center;
