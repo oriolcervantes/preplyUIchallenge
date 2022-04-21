@@ -10,7 +10,8 @@ const Cardswrapper = () => {
   return (
     <section className='cardswrapper'>
       <h1 className='cardswraptitle'>Your Herbarium</h1>
-      {flowers.map(flower => <Card key={flower.id} flower={flower} />)}
+      {flowers.sort((a, b) => a.name.localeCompare(b.name)).map(flower => <Card key={flower.id} flower={flower} />)}
+      <p>Displaying 3 out of total {data.length} flowers</p>
     </section>
   )
 }

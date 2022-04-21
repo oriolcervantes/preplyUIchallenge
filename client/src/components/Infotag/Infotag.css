@@ -16,12 +16,24 @@
   color: rgb(var(--darkpink));
 }
 
+.pinktag svg {
+  fill: rgb(var(--darkpink));
+}
+
 .bluetag {
   background-color: rgba(var(--darkblue), 0.1);
   color: rgb(var(--darkblue));
 }
 
+.bluetag svg {
+  fill: rgb(var(--darkblue));
+}
+
 .greentag {
   background-color: rgba(var(--darkgreen), 0.1);
   color: rgb(var(--darkgreen));
+}
+
+.greentag svg {
+  fill: rgb(var(--darkgreen));
 }
