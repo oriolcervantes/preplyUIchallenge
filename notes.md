@@ -10,3 +10,4 @@ These are some notes on the thinking process and decision making I had to follow
 * Something else the UI design in Figma didn't show is the sentence "Displaying 3 out of total 5 flowers" below the cards. However, once again the instructions were clear on having to include this in the app, and so I did.
 * Out of the three bonus requirements, I chose the last one, animating the transition when the cards expand, and allowing only for one card to be expanded at any time.
 * Coming next, I would have twitched this feature so that the card would also collapse upon clicking outside of it. The Figma prototype didn't behave like that, though, so I didn't do it.
+* The app was developed and tested on Mozilla Firefox and Google Chrome. It was not tested on Safari.
